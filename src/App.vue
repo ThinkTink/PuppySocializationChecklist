@@ -10,7 +10,7 @@
     </v-content>
     <v-footer padless app>
       <v-col class="text-center" cols="12">
-        {{new Date().getFullYear()}} — <strong>ThinkTink</strong>
+      {{new Date().getFullYear()}} — <strong>ThinkTink</strong> —<v-btn icon href="https://github.com/ThinkTink/PuppySocializationChecklist"><v-icon>mdi-github</v-icon></v-btn>
       </v-col>
     </v-footer>
   </v-app>
